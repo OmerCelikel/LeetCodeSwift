@@ -13,8 +13,6 @@ func isPalindrome(_ x: Int) -> Bool {
     let intArray = intToArr(x)
     let count = intArray.count
     
-    print("3/2 \(3/2)")
-    
     // checks until middle of count
     // look first and last
     for i in 0..<count/2 {
@@ -45,9 +43,4 @@ func intToArr(_ x: Int) -> Array<Int> {
     return array
 }
 
-
 isPalindrome(121)
-
-//let num = 12345
-//let array = String(num).compactMap({$0.wholeNumberValue})
-//print("\(array), \(type(of: array))")
